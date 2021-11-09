@@ -258,7 +258,6 @@ for i in range(1,10):
     print (i)
 ```
 
-
 # Resources
 * [W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
 * [Codecademy](https://www.codecademy.com/catalog)
