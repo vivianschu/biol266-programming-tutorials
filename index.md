@@ -1,3 +1,6 @@
+# BIOL 266 Programming Tutorials
+
+[Tutorial 2 - Python](https://vivianschu.github.io/biol266-programming-tutorials/Tutorial%2%-%Python)
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/vivianschu/biol266-programming-tutorials/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
