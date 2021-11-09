@@ -1,6 +1,6 @@
 # BIOL 266 - Programming Tutorials
 
-This repository contains introductory tutorials on how to program for the absolute beginner. It has been deisgned for BIOL 266 (Introduction to Computational Biology) at the University of Waterloo.
+This repository contains introductory tutorials on how to program for the absolute beginner. It has been designed for BIOL 266 (Introduction to Computational Biology) at the University of Waterloo.
 
 It is divided into a series of Tutorials:
 * Tutorial 1 - Linux
