@@ -398,7 +398,7 @@ Not much is needed to expand this tool to become a more sophisticated ORF-finder
 
 
 # Resources
-* [W3Schools Python Tutorial](https://www.w3schools.comc
+* [W3Schools Python Tutorial](https://www.w3schools.com)
 * [LearnPython.org](https://www.learnpython.org/)
 * [Python for Biologists](http://userpages.fu-berlin.de/digga/p4b.pdf)
 * [PythonTutor](https://pythontutor.com/)
