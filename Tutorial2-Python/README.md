@@ -388,6 +388,7 @@ Now, let's no longer print out all codons. Modify your code to only print out th
     
 #### 4. Check Results using BLAST
 Copy and paste your predicted open reading frames and BLAST them against the NCBI protein database. Is your program identifying valid proteins?
+
 [BLASTX](http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastx&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
 
 #### 5. On your own
