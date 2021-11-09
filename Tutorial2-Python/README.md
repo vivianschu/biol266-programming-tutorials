@@ -330,6 +330,7 @@ Then, using a sliding window of 3 nucleotides at a time (codons), output the seq
         print(codon)
     position = position + 3
     ```
+                                  
 </details>
 
 
@@ -356,6 +357,7 @@ Real proteins can be identified by looking for <b>LONG OPEN READING FRAMES</b>, 
         ORFlength = ORFlength + 3
     position = position + 3
     ```
+    
 </details>
     
 #### 3. Printing only the long open reading frames
@@ -384,6 +386,7 @@ Now, let's no longer print out all codons. Modify your code to only print out th
         ORFlength = ORFlength + 3
     position = position + 3
     ```
+    
 </details>
     
 #### 4. Check Results using BLAST
