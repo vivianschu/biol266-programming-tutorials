@@ -19,7 +19,40 @@ Download [Ubuntu for your Desktop](https://ubuntu.com/download/desktop).
 Lost? Here's an excellent tutorial which guides Windows 10 users on Ubuntu installation:
 [![How to Install Ubuntu 20.04 LTS on VirtualBox in Windows 10](http://img.youtube.com/vi/x5MhydijWmc/0.jpg)](https://www.youtube.com/watch?v=x5MhydijWmc)
 
+When you have successfully installed and run Ubuntu on your computer, search for and open up the `Terminal`.
+
+## Basic Commands
+When you open the terminal, you start in your home directory by default. Your home directory may have the same name as your computer's username. This is where your files and folders are saved.
+
+In the terminal, type:
+```bash
+pwd
+```
+This <i>prints your working directory</i>, or the directory that you are in presently. 
+
+### Listing Files and Folders
+`ls` lists the contents of your current working directory. 
+To find out what is in your home directory, type:
+```bash
+ls
+```
+Hidden files begin with a dot (.) and usually contain important program configuation information. Don't change these contents unless you absolutely must! To view these hidden files, type the command with an option:
+```
+ls -a
+```
+`options` change the behaviour of a command.
+
+
+### Making Directories
+
+
+`cd` To navigate to your home folder by default, type
+```bash
+cd
+```
+
 
 ## Resources
 * [Codecademy](https://www.codecademy.com/catalog/language/bash)
 * [LabEx - Prctice Linux Commands](https://labex.io/courses/linux-basic-commands-practice-online)
+* [Unix Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
