@@ -19,7 +19,6 @@ Download [Ubuntu for your Desktop](https://ubuntu.com/download/desktop).
 Lost? Here's an excellent tutorial which guides Windows 10 users on Ubuntu installation.
 ![How to Install Ubuntu 20.04 LTS on VirtualBox in Windows 10](http://img.youtube.com/vi/x5MhydijWmc/0.jpg)](https://www.youtube.com/watch?v=x5MhydijWmc)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/x5MhydijWmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Resources
 * [Codecademy](https://www.codecademy.com/catalog/language/bash)
