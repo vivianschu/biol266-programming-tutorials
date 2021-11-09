@@ -7,8 +7,19 @@ Python is a popular programming language used for many purposes ranging from bui
 * If you're interested in learning more Python, consider enrolling in [CS 116 Introduction to Computer Science 2](https://cs.uwaterloo.ca/current/courses/course_descriptions/cDescr/CS116) at the University of Waterloo.
 
 ## Getting Started
-### Downloading Python and Text Editor
 
+#### What are Code Editors?
+A code editor, or an Integrated Deevelopment Environment (IDE) is a computer software that allows the user to write code and debug. 
+Popular free code editing software includes: Sublime Text, Visual Studio Code, IDLE, Spyder and Jupyter
+
+### Downloading Python and Code Editor
+Download and install Python [here](https://www.python.org/).
+We recommend you to install Python 3 and up.
+
+For the ease of this tutorial, we will be using a code editor called IDLE. IDLE is bundled with your Python installation.
+1. Open the IDLE Application
+2. Go to `File > New Window` to open the programming editor
+3. You can save your file on your compuater by navigating to `File > Save` 
 
 ### Your First Program
 When we <i>print</i> text in a program, we're not literally talking about printing a piece of paper from a printer. <i>Print</i> means our computer is outputting some text.
@@ -263,3 +274,4 @@ for i in range(1,10):
 * [Codecademy](https://www.codecademy.com/catalog)
 * [LearnPython.org](https://www.learnpython.org/)
 * [Python for Biologists](http://userpages.fu-berlin.de/digga/p4b.pdf)
+* [PythonTutor](https://pythontutor.com/)
