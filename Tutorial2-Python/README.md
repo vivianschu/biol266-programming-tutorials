@@ -2,9 +2,9 @@
 Python is a popular programming language used for many purposes ranging from building websites and software development to data analysis and automating tasks. Many people like Python over other programming languages becasue its syntax (language structure) is similar to the English language - after all, it was designed for readability!
 
 ## General Information
+* If you're interested in learning more Python, consider enrolling in [CS 116 Introduction to Computer Science 2](https://cs.uwaterloo.ca/current/courses/course_descriptions/cDescr/CS116) at the University of Waterloo.
 * Python files (modules) are stored using ".py" (e.g., HelloWorld.py).
 * Indentation is used to group code blocks. This refers to the spaces at the beginning of a code line. Standard indents are 4 spaces.
-* If you're interested in learning more Python, consider enrolling in [CS 116 Introduction to Computer Science 2](https://cs.uwaterloo.ca/current/courses/course_descriptions/cDescr/CS116) at the University of Waterloo.
 
 ## Getting Started
 
@@ -224,9 +224,9 @@ DNAsequence1 = "ATAGCGCATCGATCAGCTATGCGA"
 DNAsequence2 = "ATGATCGACCGCTATAGCTAGCTA"
 
 if DNAsequence1 == DNAsequence2:
-    print ("The two DNA sequences are identical")
+    print("The two DNA sequences are identical")
 else:
-    print ("The DNA sequences are different")
+    print("The DNA sequences are different")
 ```
 
 Python relies on indentation (standard indentation is 4 spaces) at the beginning of a line to specify a code block.
@@ -238,13 +238,13 @@ DNAsequence1 = "ATAGCGCATCGATCAGCTATGCGA"
 DNAsequence2 = "ATGATCGACCGCTATAGCTAGCTA"
 
 if DNAsequence1 == DNAsequence2:
-    print ("The two DNA sequences are identical")
+    print("The two DNA sequences are identical")
 else:
-    print ("The DNA sequences are different")
+    print("The DNA sequences are different")
     if len(DNAsequence1) == len(DNAsequence2):
-        print ("but they have the same length")
+        print("but they have the same length")
     else:
-        print ("and they are different in length")
+        print("and they are different in length")
 ```
 In this example, we first compare if DNAsequence1 is equal to DNAsequence2. If they are identical, we print a sentence stating that they are identical. If they're not identical, we move to the `else` portion of the statement and print a sentence stating that the sequences are different. We also move to the next `if` block which compares the string lengths of our DNA seuqeqnces. If they are identical, we print a sentence stating that they have the same length. If they are not identical lengths, we print a statement stating that our sequences are different in length.
 
@@ -253,9 +253,9 @@ The `in` operator is also useful to see if a variable mathes an element of a lis
 DNAsequence1 = "ATAGCGCATCGATCAGCTATGCGA"
 
 if DNAsequence1[1] in ["A","C","G","T"]:
-    print ("The first character is a nucleotide")
+    print("The first character is a nucleotide")
 else:
-    print ("The first character is not a nucleotide")
+    print("The first character is not a nucleotide")
 ```
 
 ### For and while Loops
@@ -263,12 +263,12 @@ To repeat code, you can use `for` and `while` loops
 ```python
 nucleotides = ["A", "C", "G", "T"]
 for nucleotide in nucleotides:
-    print (nucleotide)
+    print(nucleotide)
 
 #or a numeric example
 
 for i in range(1,10):
-    print (i)
+    print(i)
 ```
 
 ## Functions
@@ -325,9 +325,9 @@ Then, using a sliding window of 3 nucleotides at a time (codons), output the seq
     while position < len(sequence) - 2:
         codon = sequence[position:(position+3)]
         if (codon in ("TAG","TAA","TGA")):
-            print (codon + "-----> STOP")
+            print(codon + "-----> STOP")
     else:
-        print (codon)
+        print(codon)
     position = position + 3
     ```
 </details>
@@ -347,12 +347,12 @@ Real proteins can be identified by looking for <b>LONG OPEN READING FRAMES</b>, 
     while position < len(sequence) - 2:
         codon = sequence[position:(position+3)]
         if (codon in ("TAG","TAA","TGA")):
-            print (codon + "-----> STOP")
+            print(codon + "-----> STOP")
             if (ORFlength > 100):
-                print ("--------------------LONG ORF")
+                print("--------------------LONG ORF")
         ORFlength = 0
     else:
-        print (codon)
+        print(codon)
         ORFlength = ORFlength + 3
     position = position + 3
     ```
@@ -366,17 +366,17 @@ Now, let's no longer print out all codons. Modify your code to only print out th
     Show Code
     </summary>
     
-    ```
+    ```python3
     position = 0  # need to define it first
     ORFlength = 0
     ORFsequence = ""
     while position < len(sequence) - 2:
         codon = sequence[position:(position+3)]
         if (codon in ("TAG","TAA","TGA")):
-            #print (codon + "-----> STOP")
+            #print(codon + "-----> STOP")
             if (ORFlength > 100):
-                print ("--------------------LONG ORF")
-                print (ORFsequence)
+                print("--------------------LONG ORF")
+                print(ORFsequence)
             ORFsequence = ""
             ORFlength = 0
     else:
