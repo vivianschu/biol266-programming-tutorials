@@ -213,8 +213,8 @@ Logical conditions include:
 * not equals: `a != b`
 * greater than: `a > b`
 * less than: `a < b`
-* greater than or equal to `a >= b`
-* less than or equal to `a <= b`
+* greater than or equal to: `a >= b`
+* less than or equal to: `a <= b`
 * `and`
 * `or`
 * `not`
