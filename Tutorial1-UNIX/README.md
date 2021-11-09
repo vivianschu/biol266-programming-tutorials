@@ -17,7 +17,7 @@ Unix is an operating system (similar to Windows or Mac OSX). It's made up of thr
 Download [Ubuntu for your Desktop](https://ubuntu.com/download/desktop).
 
 Lost? Here's an excellent tutorial which guides Windows 10 users on Ubuntu installation.
-![How to Install Ubuntu 20.04 LTS on VirtualBox in Windows 10](http://img.youtube.com/vi/x5MhydijWmc/0.jpg)](https://www.youtube.com/watch?v=x5MhydijWmc)
+![How to Install Ubuntu 20.04 LTS on VirtualBox in Windows 10](http://img.youtube.com/vi/x5MhydijWmc/0.jpg)(https://www.youtube.com/watch?v=x5MhydijWmc)
 
 
 ## Resources
