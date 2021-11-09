@@ -99,7 +99,7 @@ print(unluckyNumber)
 ```
 
 It might seem like there's a relationship between our variable and its content, but we can name our variable anything we want. 
-```
+```python
 courseName = "Methods in Bioinfornatics"
 print(courseName)
 #Change variable name
