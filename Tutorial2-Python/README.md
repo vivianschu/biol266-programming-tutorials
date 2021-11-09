@@ -3,7 +3,7 @@ Python is a popular programming language used for many purposes ranging from bui
 
 ## General Information
 * Python files (modules) are stored using ".py" (e.g., HelloWorld.py).
-* Indentation is used to group code blocks. This refers to the spaces at the beginning of a code line.
+* Indentation is used to group code blocks. This refers to the spaces at the beginning of a code line. Standard indents are 4 spaces.
 * If you're interested in learning more Python, consider enrolling in [CS 116 Introduction to Computer Science 2](https://cs.uwaterloo.ca/current/courses/course_descriptions/cDescr/CS116) at the University of Waterloo.
 
 ## Getting Started
@@ -53,7 +53,9 @@ print("Hello world")
 ```
 
 ### Variables
-Variables store data - they can be:
+<i>Variables</i> store data to be referenced and can be changed using a computer program.
+
+They can be:
 * <i>strings</i> (text), defined using double quotations
 * numbers (integer, float (number with decimals)
 
@@ -113,12 +115,152 @@ print(emptyBasket)
 myDNA = ["A", "C", "T", "G"]
 print(myDNA)
 ```
-We can access different items in the list by specifying its `index`. <b>The first index of a list in Python is 0</b>,not 1. For instance, in a list of 4 items, we have the indeces 0, 1, 2, 3.
+We can access different items in the list by specifying its `index` using square brackets. <b>The first index of a list in Python is 0</b>,not 1. For instance, in a list of 4 items, we have the indices 0, 1, 2, 3. You can also use negative indices to access items with respect to the right-end of the list.
 ```
 myDNA = ["A", "C", "T", "G"]
+
+# Access adenine from myDNA
+print(myDNA[0])
+
+# Assign adenine its own variable
+adenine = myDNA[0]
+print(adenine)
 ```
 
 ### Operations
+Operations are special symbols that carry out arithmetic or logical computation, like adding, subtracting, dividing, multipling, comparing numbers and more.
+```
+myInteger = 9876
+myFloat = 54.321
+
+# Add myInteger and myFloat
+mySum = myInteger + myFoloat
+print(mySum)
+```
+
+Other operations are included below:
+```
+x = 42
+y = 241
+
+# Addition
+z = x + y
+print(z)
+
+# Subtraction
+z = x - y
+print(z)
+
+# Multiplication
+z = x * y
+print(z)
+
+# Division
+z = x / y
+print(z)
+
+# Exponents
+z = x ** y
+print(z)
+```
+
+We can also use operations on strings.
+```
+# Concatenate Sentence
+courseCode = "BIOL 266"
+courseName = "Introduction to Computational Biology"
+
+course = "Welcome to " + courseCode + " " + courseName
+# notice we included two quotation marks with an empty space - this is a string!
+print(course)
+
+# Repeat Strings
+minion = banana * 100
+print(minion)
+
+# Slice a string (substrings)
+print(course[0:6])                      # should output "Welcome"
+
+# Compute the length of the string
+len(course)
+print(len(course))
+
+# Identify the index of a character
+i = course.index("B")                   # should return 11, since the first occurence of 'B' is at index 11
+
+# Counting the number of 'B' characters in the string
+i = course.index("B")
+print(i)                                # should return 2
+```
+
+### Conditional Statements (If/Else)
+<i>If statements</i> or <i>conditions</i> are commonly used to evaluate if conditions are true or false given a set of rules using `if`.
+
+Logical conditions include:
+* equals: `a == b`
+* not equals: `a != b`
+* greater than: `a > b`
+* less than: `a < b`
+* greater than or equal to `a >= b`
+* less than or equal to `a <= b`
+* `and`
+* `or`
+* `not`
+
+```
+DNAsequence1 = "ATAGCGCATCGATCAGCTATGCGA"
+DNAsequence2 = "ATGATCGACCGCTATAGCTAGCTA"
+
+if DNAsequence1 == DNAsequence2:
+    print ("The two DNA sequences are identical")
+else:
+    print ("The DNA sequences are different")
+```
+Python relies on indentation (standard indentation is 4 spaces) at the beginning of a line to specify a code block.
+The `else` function directs the code to another result if the preceding conditions aren't met.
+
+We can also put an if statement in an if statement. This is refered to as a <i>nested</i> if statement.
+```
+DNAsequence1 = "ATAGCGCATCGATCAGCTATGCGA"
+DNAsequence2 = "ATGATCGACCGCTATAGCTAGCTA"
+
+if DNAsequence1 == DNAsequence2:
+    print ("The two DNA sequences are identical")
+else:
+    print ("The DNA sequences are different")
+    if len(DNAsequence1) == len(DNAsequence2):
+        print ("but they have the same length")
+    else:
+        print ("and they are different in length")
+```
+In this example, we first compare if DNAsequence1 is equal to DNAsequence2. If they are identical, we print a sentence stating that they are identical. If they're not identical, we move to the `else` portion of the statement and print a sentence stating that the sequences are different. We also move to the next `if` block which compares the string lengths of our DNA seuqeqnces. If they are identical, we print a sentence stating that they have the same length. If they are not identical lengths, we print a statement stating that our sequences are different in length.
+
+The `in` operator is also useful to see if a variable mathes an element of a list.
+```
+DNAsequence1 = "ATAGCGCATCGATCAGCTATGCGA"
+
+if DNAsequence1[1] in ["A","C","G","T"]:
+    print ("The first character is a nucleotide")
+else:
+    print ("The first character is not a nucleotide")
+```
+
+### For and while Loops
+To repeat code, you can use `for` and `while` loops
+```
+nucleotides = ["A", "C", "G", "T"]
+for nucleotide in nucleotides:
+    print (nucleotide)
+
+#or a numeric example
+
+for i in range(1,10):
+    print (i)
+```
+
 
 # Resources
 * [W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
+* [Codecademy](https://www.codecademy.com/catalog)
+* [LearnPython.org](https://www.learnpython.org/)
+* [Python for Biologists](http://userpages.fu-berlin.de/digga/p4b.pdf)
