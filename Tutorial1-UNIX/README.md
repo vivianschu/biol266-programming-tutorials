@@ -13,7 +13,14 @@ Unix is an operating system (similar to Windows or Mac OSX). It's made up of thr
 `programs` - commands
 
 ## Getting Started
-### Accessing a Unix-based OS (e.g. Ubuntu)
+### Accessing a Unix-based OS
+Download [Ubuntu for your Desktop](https://ubuntu.com/download/desktop).
+
+Lost? Here's an excellent tutorial which guides Windows 10 users on Ubuntu installation.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x5MhydijWmc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Resources
 * [Codecademy](https://www.codecademy.com/catalog/language/bash)
