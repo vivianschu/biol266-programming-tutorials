@@ -366,7 +366,7 @@ Now, let's no longer print out all codons. Modify your code to only print out th
     Show Code
     </summary>
     
-    ```python3
+    ```python
     position = 0  # need to define it first
     ORFlength = 0
     ORFsequence = ""
