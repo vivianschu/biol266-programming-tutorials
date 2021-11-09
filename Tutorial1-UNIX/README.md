@@ -37,14 +37,22 @@ To find out what is in your home directory, type:
 ls
 ```
 Hidden files begin with a dot (.) and usually contain important program configuation information. Don't change these contents unless you absolutely must! To view these hidden files, type the command with an option:
-```
+```bash
 ls -a
 ```
 `options` change the behaviour of a command.
 
 
 ### Making Directories
-
+A `directory` is interchangeable with the common word `folder`. 
+To create a subdirectory in your hme directory, use the `mkdir` command.
+```bash
+mkdir new_folder
+```
+List your home directory to see the new subdirectory.
+```bash
+ls
+```
 
 `cd` To navigate to your home folder by default, type
 ```bash
