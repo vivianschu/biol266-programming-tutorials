@@ -10,7 +10,7 @@ Python is a popular programming language used for many purposes ranging from bui
 
 #### What are Code Editors?
 A code editor, or an Integrated Development Environment (IDE) is a computer software that allows the user to write code and debug. 
-Popular free code editing software includes: Sublime Text, Visual Studio Code, IDLE, Spyder and Jupyter
+Popular free code editing software includes: Sublime Text, Visual Studio Code, IDLE, Spyder, Jupyter, Wing, or replit.com
 
 ### Downloading Python and Code Editor
 Download and install Python [here](https://www.python.org/).
