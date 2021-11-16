@@ -175,8 +175,22 @@ ls
 mv genomes/ organisms/
 ls
 ```
+### Remote Access & File Transfer
+Note: You might not have a second server to login to, and that's okay! It may be helpful to be familiar with the commands below.
+`ssh` 
+`scp` Allows you to copy files between servers
+```bash
+# Moving file.txt to a server
+scp /path/to/file.txt username@remoteserver.com:/path/to/location/.
+```
+```bash
+# Moving file.txt from a server
+scp username@remoteserver.com:/path/to/file.txt /path/to/location/.
+```
+
 
 ## Resources
+* [Unix and Perl Primer for Biologists](http://korflab.ucdavis.edu/Unix_and_Perl/current.pdf)
 * [Codecademy](https://www.codecademy.com/catalog/language/bash)
 * [LabEx - Prctice Linux Commands](https://labex.io/courses/linux-basic-commands-practice-online)
 * [Unix Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
