@@ -320,7 +320,6 @@ Then, using a sliding window of 3 nucleotides at a time (codons), output the seq
     Show Code
     </summary>
     
-    ```
     position = 0  # need to define it first
     while position < len(sequence) - 2:
         codon = sequence[position:(position+3)]
@@ -329,7 +328,6 @@ Then, using a sliding window of 3 nucleotides at a time (codons), output the seq
     else:
         print(codon)
     position = position + 3
-    ```
                                   
 </details>
 
@@ -342,7 +340,6 @@ Real proteins can be identified by looking for <b>LONG OPEN READING FRAMES</b>, 
     Show Code
     </summary>
     
-    ```
     position = 0  # need to define it first
     ORFlength = 0
     while position < len(sequence) - 2:
@@ -356,7 +353,6 @@ Real proteins can be identified by looking for <b>LONG OPEN READING FRAMES</b>, 
         print(codon)
         ORFlength = ORFlength + 3
     position = position + 3
-    ```
     
 </details>
     
@@ -368,7 +364,7 @@ Now, let's no longer print out all codons. Modify your code to only print out th
     Show Code
     </summary>
     
-    ```
+    
     position = 0  # need to define it first
     ORFlength = 0
     ORFsequence = ""
@@ -385,7 +381,6 @@ Now, let's no longer print out all codons. Modify your code to only print out th
         ORFsequence = ORFsequence + codon
         ORFlength = ORFlength + 3
     position = position + 3
-    ```
     
 </details>
     
