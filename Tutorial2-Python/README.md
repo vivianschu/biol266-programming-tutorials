@@ -93,7 +93,7 @@ print(courseName)
 
 luckyNumber = 7
 print(luckyNumber)
-#Reaassign number
+#Re-assign number
 unluckyNumber = 13
 print(unluckyNumber)
 ```
